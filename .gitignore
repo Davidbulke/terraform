@@ -4,5 +4,6 @@ terraform.tfstate
 .terraform/*
 *.tfstate
 *.tfstate.*
-*.tfvars
+*variables.tf
 .terraform/providers/registry.terraform.io/hashicorp/aws/4.56.0/windows_amd64/terraform.tfvars
+.terraform.lock.hcl
